@@ -35,7 +35,6 @@ export default class CommentForm extends React.Component {
     this.setState({
       characters: this._body.value.length
     });
-
   }
 
   _handleSubmit(event) {
